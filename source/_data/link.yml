@@ -1,0 +1,14 @@
+- class_name: 友情链接
+  class_desc: 都是一些优质网站
+  link_list:
+    - name: CrazyMorty的博客
+      link: https://crazymorty.com/
+      avatar: /img/morty.png
+      descr: 加油！To be a greater person！
+- class_name: 网站
+  class_desc: 值得推荐的网站
+  link_list:
+    - name: Twitter
+      link: https://twitter.com/
+      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
+      descr: 社交分享平台
