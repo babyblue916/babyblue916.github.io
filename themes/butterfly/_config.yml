@@ -10,9 +10,9 @@ nav:
 # Menu 目錄
 menu:
    主页: / || fas fa-home
-   时间轴: /archives/ || fas fa-archive
-   标签: /tags/ || fas fa-tags
-   分类: /categories/ || fas fa-folder-open
+   文章||fas fa-archive||hide:
+     标签: /tags/ || fas fa-tags
+     分类: /categories/ || fas fa-folder-open
    娱乐||fas fa-list||hide:
      音乐: /music/ || fas fa-music
      电影: /movies/ || fas fa-video
@@ -33,8 +33,10 @@ code_word_wrap: true
 # formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  fab fa-github: https://github.com/babyblue916 || Github
+  fa-brands fa-weixin: https://babyblue916.oss-cn-shanghai.aliyuncs.com/img/wechat.png || 微信
+  fab fa-qq: https://res.abeim.cn/api/qq/?qq=2458372141 || QQ 
+  fas fa-envelope: mailto:15800342916@163.com || 邮箱
 
 # Image (圖片設置)
 # --------------------------------------
@@ -754,7 +756,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Customize typed.js (配置typed.js)
@@ -766,7 +768,7 @@ subtitle:
   # source: 2  調用一句網（簡體） https://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: false
+  source: 1
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
 
