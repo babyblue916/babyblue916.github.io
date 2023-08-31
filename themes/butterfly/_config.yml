@@ -13,9 +13,12 @@ menu:
    文章||fas fa-archive||hide:
      标签: /tags/ || fas fa-tags
      分类: /categories/ || fas fa-folder-open
-   娱乐||fas fa-list||hide:
-     音乐: /music/ || fas fa-music
-     电影: /movies/ || fas fa-video
+#  娱乐||fas fa-list||hide:
+# 音乐: /songs/ || fas fa-music
+   # 电影: /movies/ || fas fa-video
+   # 书籍: /books/ || fas fa-book     #This is your books page
+   # 游戏: /games/ || fas fa-gamepad   #This is your games page
+   收藏: /collect/ || fas fa-list
    友链: /link/ || fas fa-link
    关于: /about/ || fas fa-heart
 
@@ -918,7 +921,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'">
   bottom:
     # - <script src="xxxx"></script>
 

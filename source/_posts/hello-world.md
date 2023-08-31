@@ -1,7 +1,8 @@
 ---
 title: Hello world
 date: 2023-08-06 12：50：42
-tags: hexo
+tags: 生活
+categories: 生活
 ---
 
 

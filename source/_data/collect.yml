@@ -1,0 +1,79 @@
+- class_name: 📺 电影
+  class_desc: #分类描述
+  link_list:
+    - name: 让子弹飞 #名字
+      img: https://t1.szrtcpa.com/upload/vod/20220313-27/fa8e1f40e62df7aa609cba34f5ee8a25.jpg #图片链接
+      score: 3.5 # 1-5星
+    
+    - name: 小人物 #名字
+      img: /img/xiaorenwu.jpg #图片链接
+      score: 4.5 # 1-5星
+      
+    - name: 三个广告牌 #名字
+      img: /img/sange.jpg #图片链接
+      score: 4.5 # 1-5星
+     
+
+    - name: 老无所依 #名字
+      img: /img/laowu.jpg #图片链接
+      score: 5 # 1-5星
+    
+
+    - name: 灰猎犬号 #名字
+      img: /img/hui.jpg #图片链接
+      score: 4 # 1-5星
+     
+
+    - name: 釜山行 #名字
+      img: /img/fushan.jpg #图片链接
+      score: 5 # 1-5星
+     
+
+    - name: 林中小屋 #名字
+      img: /img/linzhong.jpg #图片链接
+      score: 4.5 # 1-5星
+    
+
+
+
+
+
+
+- class_name: 📺 电视剧
+  class_desc: #分类描述
+  link_list:
+    - name: 纸钞屋 #名字
+      img: /img/zhichao.jpg #图片链接
+      score: 5 # 1-5星
+      icon: fa fa-heart #左上角图标
+      tip: 电视剧 # 右上角文字
+    - name: 信号 #名字
+      img: /img/xinhao.jpg #图片链接
+      score: 5 # 1-5星
+      icon: fa fa-heart #左上角图标
+      tip: 电视剧 # 右上角文字
+    - name: 我的天才少女 #名字
+      img: /img/wode.jpg #图片链接
+      score: 5 # 1-5星
+      icon: fa fa-heart #左上角图标
+      tip: 电视剧 # 右上角文字
+    - name: 秘密森林第一季 #名字
+      img: /img/mimi.jpg #图片链接
+      score: 5 # 1-5星
+      icon: fa fa-heart #左上角图标
+      tip: 电视剧 # 右上角文字
+    - name: 秘密森林第二季 #名字
+      img: /img/mimi2.jpg #图片链接
+      score: 5 # 1-5星
+      icon: fa fa-heart #左上角图标
+      tip: 电视剧 # 右上角文字
+    - name: 去他妈的世界 #名字
+      img: /img/qutama.jpg #图片链接
+      score: 4.5 # 1-5星
+      icon: fa fa-heart #左上角图标
+      tip: 电视剧 # 右上角文字
+    - name: 全裸导演 #名字
+      img: /img/quanluo.jpg #图片链接
+      score: 5 # 1-5星
+      icon: fa fa-heart #左上角图标
+      tip: 电视剧 # 右上角文字

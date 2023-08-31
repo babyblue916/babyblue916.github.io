@@ -1,0 +1,126 @@
+/* 一级菜单居中 */
+#nav .menus_items {
+  position: absolute !important;
+  width: fit-content !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+/* 子菜单横向展示 */
+#nav .menus_items .menus_item:hover .menus_item_child {
+  display: flex !important;
+}
+/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
+.menus_items .menus_item:nth-child(2) .menus_item_child {
+  left: -20px;
+}
+
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(73, 177, 245, 0.2);
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #49b1f5;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.4) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.4) 75%,
+    transparent 75%,
+    transparent
+  );
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #49b1f5;
+}
+
+
+/* 页面渐变背景 */
+#web_bg {
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(247, 149, 51, 0.1) 0,
+    rgba(243, 112, 85, 0.1) 15%,
+    rgba(239, 78, 123, 0.1) 30%,
+    rgba(161, 102, 171, 0.1) 44%,
+    rgba(80, 115, 184, 0.1) 58%,
+    rgba(16, 152, 173, 0.1) 72%,
+    rgba(7, 179, 155, 0.1) 86%,
+    rgba(109, 186, 130, 0.1) 100%
+  );
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(247, 149, 51, 0.1) 0,
+    rgba(243, 112, 85, 0.1) 15%,
+    rgba(239, 78, 123, 0.1) 30%,
+    rgba(161, 102, 171, 0.1) 44%,
+    rgba(80, 115, 184, 0.1) 58%,
+    rgba(16, 152, 173, 0.1) 72%,
+    rgba(7, 179, 155, 0.1) 86%,
+    rgba(109, 186, 130, 0.1) 100%
+  );
+  background: -o-linear-gradient(
+    0deg,
+    rgba(247, 149, 51, 0.1) 0,
+    rgba(243, 112, 85, 0.1) 15%,
+    rgba(239, 78, 123, 0.1) 30%,
+    rgba(161, 102, 171, 0.1) 44%,
+    rgba(80, 115, 184, 0.1) 58%,
+    rgba(16, 152, 173, 0.1) 72%,
+    rgba(7, 179, 155, 0.1) 86%,
+    rgba(109, 186, 130, 0.1) 100%
+  );
+  background: -ms-linear-gradient(
+    0deg,
+    rgba(247, 149, 51, 0.1) 0,
+    rgba(243, 112, 85, 0.1) 15%,
+    rgba(239, 78, 123, 0.1) 30%,
+    rgba(161, 102, 171, 0.1) 44%,
+    rgba(80, 115, 184, 0.1) 58%,
+    rgba(16, 152, 173, 0.1) 72%,
+    rgba(7, 179, 155, 0.1) 86%,
+    rgba(109, 186, 130, 0.1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(247, 149, 51, 0.1) 0,
+    rgba(243, 112, 85, 0.1) 15%,
+    rgba(239, 78, 123, 0.1) 30%,
+    rgba(161, 102, 171, 0.1) 44%,
+    rgba(80, 115, 184, 0.1) 58%,
+    rgba(16, 152, 173, 0.1) 72%,
+    rgba(7, 179, 155, 0.1) 86%,
+    rgba(109, 186, 130, 0.1) 100%
+  );
+}
+
+
+@font-face {
+    font-family: 'gj';
+    /* 字体名自定义即可 */
+    /* src: url('https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/font/ZhuZiAWan.woff2'); */
+    src: url('https://npm.elemecdn.com/ethan4116-blog/lib/font/ZhuZiAWan.ttf');
+    /* 字体文件路径 */
+    font-display: swap;
+}
+
+body,
+.gitcalendar {
+    font-family: tzy !important;
+}
