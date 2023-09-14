@@ -13,26 +13,29 @@
       img: /img/sange.jpg #图片链接
       score: 4.5 # 1-5星
      
-
     - name: 老无所依 #名字
       img: /img/laowu.jpg #图片链接
       score: 5 # 1-5星
     
-
     - name: 灰猎犬号 #名字
       img: /img/hui.jpg #图片链接
       score: 4 # 1-5星
      
-
     - name: 釜山行 #名字
       img: /img/fushan.jpg #图片链接
       score: 5 # 1-5星
      
-
     - name: 林中小屋 #名字
       img: /img/linzhong.jpg #图片链接
       score: 4.5 # 1-5星
     
+    - name: 奥本海默 #名字
+      img: /img/aoben.jpg #图片链接
+      score: 5 # 1-5星
+
+    - name: 犯罪都市 #名字
+      img: /img/fanzui.jpg #图片链接
+      score: 4.5 # 1-5星
 
 
 
@@ -46,34 +49,64 @@
       img: /img/zhichao.jpg #图片链接
       score: 5 # 1-5星
       icon: fa fa-heart #左上角图标
-      tip: 电视剧 # 右上角文字
+      tip: 西班牙剧 # 右上角文字
     - name: 信号 #名字
       img: /img/xinhao.jpg #图片链接
       score: 5 # 1-5星
       icon: fa fa-heart #左上角图标
-      tip: 电视剧 # 右上角文字
+      tip: 韩剧 # 右上角文字
     - name: 我的天才少女 #名字
       img: /img/wode.jpg #图片链接
       score: 5 # 1-5星
       icon: fa fa-heart #左上角图标
-      tip: 电视剧 # 右上角文字
+      tip: 美剧 # 右上角文字
     - name: 秘密森林第一季 #名字
       img: /img/mimi.jpg #图片链接
       score: 5 # 1-5星
       icon: fa fa-heart #左上角图标
-      tip: 电视剧 # 右上角文字
+      tip: 韩剧 # 右上角文字
     - name: 秘密森林第二季 #名字
       img: /img/mimi2.jpg #图片链接
       score: 5 # 1-5星
       icon: fa fa-heart #左上角图标
-      tip: 电视剧 # 右上角文字
+      tip: 韩剧 # 右上角文字
     - name: 去他妈的世界 #名字
       img: /img/qutama.jpg #图片链接
       score: 4.5 # 1-5星
       icon: fa fa-heart #左上角图标
-      tip: 电视剧 # 右上角文字
+      tip: 英剧 # 右上角文字
     - name: 全裸导演 #名字
       img: /img/quanluo.jpg #图片链接
       score: 5 # 1-5星
       icon: fa fa-heart #左上角图标
-      tip: 电视剧 # 右上角文字
+      tip: 日剧 # 右上角文字
+    - name: 模范出租车 #名字
+      img: /img/mofan.jpg #图片链接
+      score: 5 # 1-5星
+      icon: fa fa-heart #左上角图标
+      tip: 韩剧 # 右上角文字
+    - name: 火星生活 #名字
+      img: /img/huoxing.jpg #图片链接
+      score: 5 # 1-5星
+      icon: fa fa-heart #左上角图标
+      tip: 韩剧 # 右上角文字
+    - name: 美国众神 #名字
+      img: /img/meiguo.jpg #图片链接
+      score: 5 # 1-5星
+      icon: fa fa-heart #左上角图标
+      tip: 美剧 # 右上角文字
+    - name: 堕落街传奇 #名字
+      img: /img/duoluo.jpg #图片链接
+      score: 5 # 1-5星
+      icon: fa fa-heart #左上角图标
+      tip: 美剧 # 右上角文字
+    - name: 我是大哥大 #名字
+      img: /img/woshida.jpg #图片链接
+      score: 5 # 1-5星
+      icon: fa fa-heart #左上角图标
+      tip: 日剧 # 右上角文字
+    - name: 士兵突击 #名字
+      img: /img/shibing.jpg #图片链接
+      score: 5 # 1-5星
+      icon: fa fa-heart #左上角图标
+      tip: 国产剧 # 右上角文字
