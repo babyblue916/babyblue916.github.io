@@ -1,0 +1,9 @@
+@font-face{
+  font-family:'PingFang' ;  /* 字体名自定义即可 */
+  src:url('http://aciano.top/redirect/?target=https://cdn.jsdelivr.net/gh/Amnesia-f/jsDelivr_CDN/font/苹方字体.ttf'); /* 字体文件路径 */
+  font-display : swap;
+}
+
+h1#site-title {
+  font-family: 'Candyhome', sans-serif;
+}
